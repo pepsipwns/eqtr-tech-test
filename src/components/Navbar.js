@@ -1,4 +1,6 @@
 import logo from '../assets/stock-logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 function Navbar() {
   return (
@@ -16,7 +18,7 @@ function Navbar() {
             </li>
             <li className="me-5">
               <a>
-                <span className="navbar-toggler-icon text-yellow"></span>
+                <FontAwesomeIcon icon={faBars} className="bars" />
               </a>
             </li>
           </ul>
