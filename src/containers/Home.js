@@ -13,7 +13,7 @@ function Home() {
                   atque provident!"
       />
       <div className="bg-grey">
-        <div className="container py-5 mt-2">
+        <div className="container py-5">
           <div className="col-4">
             <select
               className="form-select mb-5"
