@@ -1,6 +1,28 @@
-.bars {
-  color: rgba($yellow, 0.5);
-  font-size: 26px;
-  line-height: 26px;
-  margin-top: 50%;
+.navbar-absolute {
+  position: absolute;
+  z-index: 99;
+  display: flex;
+  width: 100%;
+
+  .nav-container {
+    width: 100%;
+    display: flex;
+    position: relative;
+    .nav-items-container {
+      width: 100%;
+      display: flex;
+      justify-content: end;
+      .list-inline {
+        position: absolute;
+        top: 50%;
+        @include transform(translateY(-50%));
+      }
+    }
+  }
+
+  .bars {
+    color: rgba($yellow, 0.5);
+    font-size: 26px;
+    line-height: 26px;
+  }
 }

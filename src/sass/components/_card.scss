@@ -1,0 +1,22 @@
+.card {
+  height: 100%;
+  border-radius: 10px;
+  color: $white;
+  h3 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  &-body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px 0px;
+  }
+
+  &-text {
+    max-height: 76px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    position: relative;
+  }
+}

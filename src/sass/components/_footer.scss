@@ -1,0 +1,15 @@
+.footer {
+  min-height: 260px;
+  background-color: $primary;
+  color: $white;
+  font-size: 12px;
+  padding-top: 40px;
+  margin-top: 40px;
+  li {
+    padding-bottom: 10px;
+  }
+  hr {
+    height: 2px;
+    opacity: 0.2;
+  }
+}

@@ -6,3 +6,16 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+.float-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.bg-grey {
+  background-color: $light-grey;
+}
+
+.bg-dark-grey {
+  background-color: $dark-grey;
+}

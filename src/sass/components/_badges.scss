@@ -1,0 +1,44 @@
+.badge {
+  font-size: 14px;
+  border: 0;
+  color: white;
+  font-size: 14px;
+  height: fit-content;
+
+  &-heat {
+    border-radius: 9px;
+    width: 50px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+    color: white;
+  }
+
+  &-hot {
+    border: 2px solid $red;
+    background-color: rgba($red, 0.5);
+    &:hover {
+      color: $red;
+      background-color: rgba($red, 0.4);
+    }
+  }
+
+  &-medium {
+    border: 2px solid $orange;
+    background-color: rgba($orange, 0.5);
+    &:hover {
+      color: $orange;
+      background-color: rgba($orange, 0.4);
+    }
+  }
+
+  &-cold {
+    border: 2px solid $yellow;
+    background-color: rgba($yellow, 0.5);
+    &:hover {
+      color: $yellow;
+      background-color: rgba($yellow, 0.4);
+    }
+  }
+}

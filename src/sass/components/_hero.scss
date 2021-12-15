@@ -1,3 +1,19 @@
 .hero {
-  height: 400px;
+  height: 500px;
+  position: relative;
+  .container {
+    height: 100%;
+    .text-container {
+      position: absolute;
+      top: 50%;
+      @include transform(translateY(-50%));
+    }
+  }
+
+  hr {
+    height: 3px;
+    color: $yellow;
+    width: 40%;
+    opacity: 1;
+  }
 }

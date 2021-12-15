@@ -1,61 +1,39 @@
 .btn {
-  font-size: 14px !important;
-  border: 0 !important;
-  padding: 10px 20px !important;
-  color: white !important;
-  font-size: 14px !important;
+  font-size: 14px;
+  border: 0;
+  color: white;
+  font-size: 14px;
+  height: fit-content;
 
   &-primary {
+    padding: 10px 20px;
     &:hover {
-      background-color: rgba($primary, 0.75) !important;
+      background-color: rgba($primary, 0.75);
     }
   }
 
   &-secondary {
+    padding: 10px 20px;
     &:hover {
-      background-color: rgba($secondary, 0.75) !important;
+      background-color: rgba($secondary, 0.75);
     }
   }
 
   &-transparent {
-    background: none !important;
-    border: 2px solid white !important;
+    background: none;
+    border: 1px solid white;
   }
 
-  &-heat {
-    border-radius: 14px !important;
-    padding: 0px 20px !important;
-    font-size: 12px !important;
-    line-height: 12px !important;
-    font-weight: 700 !important;
-    color: white !important;
-    line-height: 0px !important;
-  }
-
-  &-hot {
-    border: 2px solid $red !important;
-    background-color: rgba($red, 0.5) !important;
+  &-link {
+    text-decoration: none;
+    font-weight: 600;
+    padding-left: 0;
     &:hover {
-      color: $red !important;
-      background-color: rgba($red, 0.4) !important;
+      color: rgba($white, 0.6);
     }
   }
 
-  &-medium {
-    border: 2px solid $orange !important;
-    background-color: rgba($orange, 0.5) !important;
-    &:hover {
-      color: $orange !important;
-      background-color: rgba($orange, 0.4) !important;
-    }
-  }
-
-  &-cold {
-    border: 2px solid $yellow !important;
-    background-color: rgba($yellow, 0.5) !important;
-    &:hover {
-      color: $yellow !important;
-      background-color: rgba($yellow, 0.4) !important;
-    }
+  &-form {
+    padding: 12px 15px;
   }
 }
